@@ -1,0 +1,13 @@
+[package]
+name = "rnagit"
+version = "0.1.0"
+authors = ["Gyusun Yeom <omniavinco@gmail.com>"]
+
+[dependencies]
+git2 = "*"
+tui = "0.1.3"
+termion = "*"
+colored = "1.6"
+
+[patch.crates-io]
+termion = { git = "https://github.com/Perlmint/termion.git" }
